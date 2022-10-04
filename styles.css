@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    background-color: dimgray;
+}
+
+.header-banner {
+    display: flex;
+    background-image: url('giraffe_background.jpeg');
+    background-size:auto;
+    min-width: 98vw;
+    min-height: 64vh;
+    align-content: left;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .header-banner h1 {
+     margin-left: 2rem;
+     color: ghostwhite;
+ }
+
+ .header-banner h2 {
+    margin-left: 2rem;
+    color: ghostwhite;
+}
+
+.banner {
+    display: flex;
+    min-width: 98vw;
+    min-height: 20vh;
+    align-content: center;
+    justify-content: center;
+    vertical-align: center;
+    background-color: #c7c7c7;
+}
+
+.banner h1 {
+    margin: auto;
+    color: #343a40;
+}
+
+.project-content img {
+    max-width: 80vw;
+    max-height: 80vh;
+    object-fit: contain;
+    margin: auto;
+    border: 3px solid #343a40;
+}
+
+.project-content p{
+    margin: 1rem 5rem;
+    text-align: left;
+}
+
+.project-header {
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.project-header h1{
+    margin: auto;
+    align-content: left;
+    justify-content: left;
+}
+
+.project-content {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.personas-images img{
+    align-items: center;
+    padding: 0rem 5rem;
+    margin: auto;
+}
+
+.project-content h3 {
+    margin: 1rem 5rem;
+    padding: 0.5rem 0rem;
+    font-weight: bold;
+}
+
+.project-content ol{
+    padding: 1rem;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    margin: 0rem 5rem;
+}
+
+.project-content ul{
+    padding: 1rem;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    margin: 0rem 5rem;
+}
+
+.storyboard {
+    align-items: center;
+    padding: 0rem 5rem;
+    margin: auto;
+}
+
+.personas-images {
+    margin: auto;
+}
+
+#personas {
+    border: 1px solid #343a40;
+}
