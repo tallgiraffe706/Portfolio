@@ -85,7 +85,21 @@ body {
     font-weight: bold;
 }
 
+.project-content h4 {
+    margin: 0rem 5rem;
+    padding: 0.5rem 0rem;
+    font-weight: bold;
+}
+
 .project-content ol{
+    padding: 1rem;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    margin: 0rem 5rem;
+}
+
+.project-content ul{
     padding: 1rem;
     justify-content: left;
     align-content: left;
@@ -113,4 +127,9 @@ body {
 
 #personas {
     border: 1px solid #343a40;
+}
+
+.project-content .prototypes {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
