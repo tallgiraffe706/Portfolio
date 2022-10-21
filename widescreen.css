@@ -78,6 +78,7 @@ body {
     margin: auto;
     min-height: 50vh;
     min-width: 100vw;
+    max-width: 100vw;
     background-image: url('office.jpg');
     background-size: cover;
     background-position: 0% 1%;
