@@ -121,7 +121,7 @@ body {
 #banner{
     min-height: 25vh;
     min-width: 100vw;
-    background-image: url('images/office.jpg');
+    background-image: url('office.jpg');
     background-size: cover;
     background-position: 0% 1%;
     display: flex;
