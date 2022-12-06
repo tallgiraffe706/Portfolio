@@ -1,308 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset='utf-8'>
-    <title>TallGiraffe706's CSCI 1300 Website</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS Stylesheets -->
-    <link rel='stylesheet' href='styles.css'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="style.css">
 
-    <!-- Link Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 
-</head>
-
-<body>
-    <!-- Navbar -->
-    <div class="container-fullwidth nav-container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">TallGiraffe706 </a>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Projects
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <!-- <a class="dropdown-item" href="#personas">Personas</a> -->
-                      <a class="dropdown-item" href="#redesign">Redesign</a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+        <title>TallGiraffe706's Portfolio</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="navbar-brand">TallGiraffe706</div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="navbar-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </div>
 
-    <!-- Banner -->
-    <div class="header-banner">
-        <!-- <img src="giraffe_background.jpg"/> -->
-        <h1>Hello there!</h1>
-        <h2>Welcome to my CS 1300 Portfolio Website</h2>
-    </div>
-
-    <!-- Projects Banner -->
-    <div class="banner">
-        <h1>Projects</h1>
-    </div>
-
-    <!-- Personas Assignment -->
-    <!-- <div id='personas'>
-        <div class='project-header'>
-            <h1>Personas Project</h1>
-        </div>
-        
-        <div class='project-content'>
-            <p>
-                I was curious about the effectiveness of the design of one of my speakers. I remembered having a difficult
-                time understanding how to use it when I first bought it, and I wanted to see if others' experiences with 
-                the speaker would mirror my own.
-            </p>
-
-            <h3>The Interface</h3>
-            <p>
-                The interface in question is the Coleman CBT50 portable bluetooth speaker. A sketch of the speaker can be 
-                found below. The interface consists of a total of 3 buttons and a switch. The three buttons on the top 
-                are used for the Skip-Backward, Play/Pause, and Skip-Forward operations. The switch, located on the 
-                bottom of the speaker, is used primarily for turning the speaker On and Off, along with setting it to 
-                pairing mode.
-            </p>
-
-            <img src="CS_1300_Interface_Sketch.png" alt="Sketch of Coleman CBT50 Portable Bluetooth Speaker">
-
-            <h3>The Experiment</h3>
-            <p>
-                In order to better understand other people's interactions with the bluetooth speaker interface, I designed 
-                a set of interview questions that would help capture the users' experiences. My plan was to bring the 
-                speaker to a party and observe as different people tried connecting their respective phones to the speaker. 
-                Once each user had finished interacting with the speaker, I interviewed them in an attempt to capture the 
-                parts of the interface interaction that had stuck out to them. My interview questions can be found below:
-            </p>
-            <ol>
-                <li>
-                    <b>
-                    Which of these 4 statements best describes your experience with connecting your phone to the bluetooth 
-                    speaker?
-                    </b>
-                    <ol type='a'>
-                        <li>
-                            Connecting my phone to the bluetooth speaker was easy and I encountered no difficulties.
-                        </li>
-                        <li>
-                            Connecting my phone to the bluetooth speaker was somewhat easy but I was slightly 
-                            confused and encountered some difficulties.
-                        </li>
-                        <li>
-                            Connecting my phone to the bluetooth speaker was hard and I had significant difficulties 
-                            with the interface.
-                        </li>
-                        <li>
-                            I was not able to connect my phone to the bluetooth speaker. The interface was too difficult 
-                            to understand.
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    <b>
-                    What was the biggest challenge you faced when connecting your phone to the bluetooth speaker?
-                    </b>
-                    <ol type='a'>
-                        <li>
-                            <i>Open Response</i>
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    <b>
-                    If you were given the opportunity to change one thing about the design of the speaker, what would you 
-                    change?
-                    </b>
-                    <ol type='a'>
-                        <li>
-                            <i>Open Response</i>
-                        </li>
-                    </ol>
-                </li>
-            </ol>
-
-            <h3>The Observations</h3>
-            <p>
-                Overall, all three users took some time initially to figure out how to turn the speaker on. Two users 
-                spent about a minute repeatedly pressing the play button at the top and checking their phones to see if 
-                that had turned the speaker on and made it available to pair. The third user tried pressing all the 
-                buttons at the top of the speaker (play, skip-forward, skip-backward) to turn on the speaker. After about 
-                a minute of playing around with the speaker, all users were able to find the power switch at the bottom of 
-                the speaker. Once each person figured out how to turn the speaker on, the connection process was similar 
-                for the first two users as the speaker audibly went into pairing mode and they were able to connect to it 
-                via the bluetooth screen on their respective phones. The third user was able to get the speaker into 
-                pairing mode, but as they went to connect via their phone, the speaker ran out of battery. This user spent 
-                the next few minutes trying to figure out what was wrong with the speaker after he was unable to connect, 
-                and eventually got frustrated and gave up.
-            </p>
-
-            <h3>The Interviews</h3>
-            <p>
-                Below are the summarized important points from the various interviews I conducted. These are meant to 
-                highlight the general patterns between the experiences of different users.
-            </p>
-
-            <ol>
-                <li>
-                    Which of these 4 statements best describes your experience with connecting your phone to the bluetooth 
-                    speaker?
-
-                    <ul type='disc'>
-                        <li>
-                            Users described the experience of connecting their phones to the speaker as hard, and they 
-                            experienced difficulties when interacting with the speaker’s interface.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    What was the biggest challenge you faced when connecting your phone to the bluetooth speaker?
-                    <ul type='disc'>
-                        <li>
-                            Generally, users’ biggest challenge was figuring out how to get the speaker to power up and 
-                            get into pairing mode.
-                        </li>
-                        <li>
-                            One user felt the most significant challenge was understanding the status of the speaker, 
-                            as it had run out of charge while they tried to connect.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    If you were given the opportunity to change one thing about the design of the speaker, what would you 
-                    change?
-                    <ul type='disc'>
-                        <li>
-                            Generally, users felt the change would be to move the power switch to the top of the speaker 
-                            so it is more accessible.
-                        </li>
-                    </ul>
-                </li>
-            </ol>
-
-            <h3>The Personas</h3>
-            <p>
-                Below are the personas I developed representing potential users of the bluetooth speaker based upon my 
-                observations of the various users' interactions with the speaker.
-            </p>
-            <div class="personas-images">
-                <img src="CS_1300_Persona_1.png" alt="Empathy Map for Confused Colin Persona">
-                <img src="CS_1300_Persona_2.png" alt="Empathy Map for Distressed DJ Dan Persona">
+        <div class="d-flex flex-column banner">
+            <!-- <img src="giraffe_background.jpeg" alt="giraffe picture"> -->
+            <h1 class="text-light">TallGiraffe706</h1>
+            <div class="projectLink">
+                <a href="#projects" class="btn text-light">Check out my projects below</a>
+                <a href="#projects" class="btn text-light border"><h4>v</h4></a>
             </div>
 
-            <h3>The Storyboard</h3>
-            <p>
-                Below is an example storyboard for a user's journey with the product. This storyboard is based upon a 
-                persona found in the previous section, specifically Confused Colin.
-            </p>
-            <img src="CS_1300_Storyboard.png" alt="Confused Colin Storyboard" class="storyboard">
         </div>
-    </div> -->
 
-    <div id='redesign'>
-        <div class='project-header'>
-            <h1>Redesign Project</h1>
+        <div class="d-flex flex-column" id="projects">
+            <div class="d-flex flex-row projectRow">
+                <div class="projectComponent">
+                    <iconify-icon icon="material-symbols:person-outline" width="6rem"></iconify-icon>
+                    <h2 class="text-light">Personas</h2>
+                    <p class="text-light projectDescription">
+                        My Personas project focused on analyzing a user interface design and developing personas for 
+                        potential users based on user testing I designed and conducted.
+                    </p>
+                    <a href="personas.html">
+                        Click here to learn more about it.
+                    </a>
+                </div>
+                <div class="projectComponent">
+                    <iconify-icon icon="ic:outline-design-services" width="6rem"></iconify-icon>
+                    <h2 class="text-light">Redesign</h2>
+                    <p class="text-light projectDescription">
+                        My Redesign project focused on analyzing the design of a current website, and creating a low-fi, 
+                        high-fi, and full website redesign for it to better serve its purpose.
+                    </p>
+                    <a href="redesign.html">
+                        Click here to learn more about it.
+                    </a>
+                </div>
         </div>
-        <div class='project-content'>
-            <p>After seeing the official Berkshire Hathaway website, I knew it needed a redesign.</p>
-
-            <p>
-                <br>The original website can be found <a href="https://berkshirehathaway.com/">here</a>. My redesign of the website can be 
-                found <a href="berkshire_hathaway.html">here</a>.
-            </p>
-
-            <h3>The Website</h3>
-            <p>The official Berkshire Hathaway website, which can be found <a href="https://berkshirehathaway.com/">here</a> is extremely bare bones. 
-                When trying to navigate the site, I had trouble finding any logical flow or organization to the 
-                way the content was laid out. 
-            </p>
-
-            <img src="berkshire_original.png" alt="Berkshire Hathaway Website">
-
-            <h3>The Problems</h3>
-            <h4>Usability Problems</h4>
-            <ul>
-                <li>
-                    The website is not very memorable. Aside from the header at the top, there is nothing in particular that stands 
-                    out to me.
-                </li>
-                <li>
-                    In terms of efficiency, the website has almost nothing to load so it is very efficient with load time. However, 
-                    it is not very efficient to use because there is no structure or order to the elements on the site, so it takes 
-                    a while to find what you are looking for.
-                </li>
-                <li>
-                    The website is somewhat learnable, in that someone who uses it quite often would eventually know what all the 
-                    links are, but it takes quite a while to learn without a logical separation or grouping of the items.
-                </li>
-                <li>
-                    I don’t understand the point of the Geico advertisement at the bottom of the page as it seems extremely unrelated 
-                    and randomly placed there.
-                </li>
-            </ul>
-
-            <h4>Accessibility Problems</h4>
-            <p>
-                There were not too many errors and mistakes found on this website. I believe this is due to the extremely bare status of 
-                the site, where there are enough structural elements for many mistakes to have been made. The main error that was found 
-                was that the language was not defined in the code. Additionally, there was a redundant link, meaning that two of the links 
-                linked to the same page. There were also links to PDF documents, which can decrease the accessibility of the site since 
-                PDF documents sometimes need a separate application in order to be read. Finally, there were some areas on the website 
-                where the text was too small making it difficult to read.
-            </p>
-
-            <h3>The Redesign</h3>
-            <h4>Lo-Fi Wireframes</h4>
-            <p>
-                Before creating the redesigned webpage, it was important for me to create some low fidelity wireframes of what I intended 
-                for the page. This way, I would have some guiding design principles for all the different devices I was designing for. 
-                These wireframes helped map out the basic elements of the page. They can be found below:
-            </p>
-            <img class='prototypes' src="BerkshireHathawayMonitorWireframe.png" alt="Lo-Fi Wireframe for Berkshire Hathaway webpage monitor view">
-            <img class='prototypes' src="BerkshireHathawayTabletWireframe.png" alt="Lo-Fi Wireframe for Berkshire Hathaway webpage tablet view">
-            <img class='prototypes' src="BerkshireHathawayPhoneWireframe.png" alt="Lo-Fi Wireframe for Berkshire Hathaway webpage phone view">
-
-            <h4>Hi-Fi UI Style Guide</h4>
-
-            <p>
-                After creating the low fidelity wireframes, I needed to create more realistic high fidelity prototypes. For these, I would need 
-                a better idea of the color palette I would be drawing from to unify my webpage. For this purpose, I created a UI Style Guide, 
-                which can be found below:
-            </p>
-
-            <img class='prototypes' src="ui_style_guide.png" alt="UI Style Guide for Redesigned Berkshire Hathaway webpage">
-
-            <h4>Hi-Fi Prototypes</h4>
-            <p>
-                Finally, I created the high fidelity prototypes for the redesigned webpage. These prototypes are the true guide that I used 
-                for creating the real redesign for the website, as they are much higher quality than the lo-fi wireframes, and they are 
-                annotated with notes about how to design certain elements to achieve a specific look. I created three prototypes, one for 
-                a computer monitor, one for a tablet, and one for a phone. The hi-fi prototypes can be found below:
-            </p>
-            <img class='prototypes' src="hifi-monitor.png" alt="Hi-Fi Prototype for Berkshire Hathaway webpage monitor view">
-            <img class='prototypes' src="hifi-tablet.png" alt="Hi-Fi Prototype for Berkshire Hathaway webpage tablet view">
-            <img class='prototypes' src="hifi-phone.png" alt="Hi-Fi Prototype for Berkshire Hathaway webpage phone view">
-
-
-            <h4>The Final Webpage</h4>
-            <p>
-                With the guide of the hi-fi prototypes, I was able to complete the final redesign of the webpage. The redesign can be found
-                <a href="berkshire_hathaway.html">here</a>. Screenshots of it can be found below:
-            </p>
-            <img class='prototypes' src="final-page-desktop.png" alt="Redesigned Berkshire Hathaway webpage monitor view">
-            <img class='prototypes' src="final-page-tablet.png" alt="Redesigned Berkshire Hathaway webpage tablet view">
-            <img class='prototypes' src="final-page-phone.png" alt="Redesigned Berkshire Hathaway webpage phone view">
+        <div class="d-flex flex-row projectRow">
+            
+                <div class="projectComponent">
+                    <iconify-icon icon="ion:reload" width="6rem"></iconify-icon>
+                    <h2 class="text-light">Iterative Design</h2>
+                    <p class="text-light projectDescription">
+                        For my Iterative Design project, I worked with my group to design low-fi and high-fi responsive 
+                        prototypes for a startup's website, and iterate on our design based on critiques and feedback. 
+                    </p>
+                    <a href="iterative.html">
+                        Click here to learn more about it.
+                    </a>
+                </div>
+                <div class="projectComponent">
+                    <iconify-icon icon="material-symbols:developer-mode-outline-rounded" width="6rem"></iconify-icon>
+                    <h2 class="text-light">Development</h2>
+                    <p class="text-light projectDescription">
+                        For my Development project, I designed an NBA MVP Tracker using React, which allows users to keep 
+                        track of the leading MVP candidates as well as their favorite players. 
+                    </p>
+                    <a href="development.html">
+                        Click here to learn more about it.
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
-    
-</body>
+    </body>
 </html>

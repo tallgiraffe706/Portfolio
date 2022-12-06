@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+        <title>TallGiraffe706's Portfolio</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="navbar-brand"><a href="index.html" class="nav-link">TallGiraffe706</a></div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="navbar-item"><a href="index.html#projects" class="nav-link">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id='redesign'>
+            <div class='project-header'>
+                <h1 class="text-light">Development Project</h1>
+            </div>
+            <div class='project-content'>
+                <p class="text-light">In an effort to learn about React web application development, I decided to 
+                    develop an NBA MVP Tracker.
+                </p>
+
+                <h3 class="text-light">The Goal</h3>
+                <p class="text-light">
+                    This application is meant to be an MVP Tracker that keeps track of the NBA MVP race. 
+                    It provides users with many of the most important and relevant statistics for each player, 
+                    as well as their individual rankings in the race. It also allows users to add players to their 
+                    own Favorites list so that they can easily keep track of their favorite players.
+                </p>
+
+                <h3 class="text-light">Usability Principles Considered</h3>
+                <p class="text-light">
+                    I wanted to make sure the filters and sorting were easy to find, so I kept those at the top of the 
+                    page above the list of MVP candidates. The filters give users an easy way to view only the players 
+                    that they want to see based on various criteria such as team or average points per game. I also 
+                    didn't want to create a separate sidebar for the Favorites list, as I felt it wouldn't give enough 
+                    space to clearly display the stats for each of the players, so I kept the Favorites list at the 
+                    bottom of the page, that way in both the MVP tracker and the Favorites list, all the stats and 
+                    buttons for each player were displayed clearly.
+                </p>
+
+                <h3 class="text-light">Organization of Components</h3>
+                <p class="text-light">
+                    The main component in my application is the PlayerItem component, which lists out all the statistics 
+                    for a player and contains their picture alongside a button to add them to the user's Favorites list. 
+                    The props that the component uses are a newPlayer object, which contains the players relevant 
+                    statistics, an onButtonClick function which is used to pass the functionality of the button in the 
+                    PlayerItem component, and finally a buttonText prop. The buttonText prop is used to fill in the 
+                    text for the button, which is usually "Add Player to Favorites". The reason this prop is necessary 
+                    is that I used the same PlayerItem component in the Favorites list, however, there the button is 
+                    used to remove players from the Favorites list, so the button text needs to be different to signify 
+                    this. In App.js, I used a few different states. The first was a state that kept track of all the 
+                    players that were in the Favorites list. The second was a variable for the filter that filtered the 
+                    list by teams. This variable kept track of which teams were being displayed. The third was a variable 
+                    for the filter that filtered the list by minimum points per game. This variable kept track of what 
+                    this minimum points per game value was. Finally, I used a state variable in order to keep track of 
+                    how the players were sorted. It could either be in ascending or descending order with relation to 
+                    sthe ranking of the players in the MVP race.
+                </p>
+
+                <img src="images/mvp_tracker_screenshot.png" alt="MVP Tracker Application Screenshot">
+
+                <h3 class="text-light">The Final Application</h3>
+                <p class="text-light">You can check out my final product <a href="https://tallgiraffe706.github.io/MVP-Tracker/">here.</a></p>
+            </div>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.banner {
+    background-image: url('images/giraffe_background.jpeg');
+    min-height: 30rem;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.projectLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+iconify-icon {
+    color: white;
+}
+
+.projectComponent {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 50%;
+    padding: 5rem;
+
+}
+
+#projects {
+    justify-content: space-between;
+    background-color: black;
+}
+
+.projectRow {
+    justify-content: space-evenly;
+ 
+}
+
+.projectDescription {
+    display: none;
+}
+
+.projectComponent a {
+    display: none;
+}
+
+.projectComponent:hover .projectDescription {
+    display: block;
+}
+
+.projectComponent:hover a {
+    display: block;
+}
+
+.projectComponent:hover iconify-icon {
+    display: none;
+}
+
+.projectComponent:hover {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+a {
+    text-align: center;
+}
