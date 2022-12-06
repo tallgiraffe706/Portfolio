@@ -3,7 +3,7 @@ html {
 }
 
 .banner {
-    background-image: url('images/giraffe_background.jpeg');
+    background-image: url('./giraffe_background.jpeg');
     min-height: 30rem;
     display: flex;
     align-content: center;
