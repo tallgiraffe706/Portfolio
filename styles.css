@@ -5,7 +5,7 @@ body {
 
 .header-banner {
     display: flex;
-    background-image: url('giraffe_background.jpeg');
+    background-image: url('./giraffe_background.jpeg');
     background-size:auto;
     min-width: 98vw;
     min-height: 64vh;
@@ -40,7 +40,7 @@ body {
 }
 
 .project-content img {
-    max-width: 80vw;
+    max-width: 100%;
     max-height: 80vh;
     object-fit: contain;
     margin: auto;
@@ -74,6 +74,8 @@ body {
     text-align: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .personas-images img{

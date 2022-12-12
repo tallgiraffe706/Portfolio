@@ -3,8 +3,10 @@ html {
 }
 
 .banner {
-    background-image: url('./giraffe_background.jpeg');
-    min-height: 30rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-height: 45rem;
+    margin: auto;
+    padding: auto;
     display: flex;
     align-content: center;
     text-align: center;
@@ -20,10 +22,13 @@ html {
     text-align: center;
     justify-content: center;
     margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
+
 iconify-icon {
-    color: white;
+    color: goldenrod;
 }
 
 .projectComponent {
@@ -31,6 +36,7 @@ iconify-icon {
     align-content: center;
     text-align: center;
     width: 50%;
+    height: 50%;
     padding: 5rem;
 
 }
@@ -42,6 +48,7 @@ iconify-icon {
 
 .projectRow {
     justify-content: space-evenly;
+    height: 50%;
  
 }
 
@@ -71,4 +78,8 @@ iconify-icon {
 
 a {
     text-align: center;
+}
+
+.border:hover {
+    background-color:goldenrod;
 }
